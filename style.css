@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana');
+*{
+    margin: 0px;
+}
+body{
+    background-color: #E1F0DA;
+    font-family: 'M PLUS Code Latin';
+}
+header{
+    background-color:#99B080;
+    padding: 10px;
+}
+.logo img{
+    width: 3.5vw;
+}
+.title{
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 900;
+    font-size: larger;
+}
+nav>h1{
+    margin-top: 50px;
+    align-items: center;
+}
+.green{
+    color: #43766C;
+}
+.description{
+    font-size: 40px;
+}
+.description>h4{
+    padding-top: 50px;
+    font-family: 'Lusitana';
+    color: #6C6C6C;
+    font-weight: normal;
+}
+.main-description{
+    padding: 80px 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Random-Meal>h4,.Search-results>h4{
+    margin-left: 80px;
+    font-size: 40px;
+    padding-top: 25px;
+    font-family: 'Lusitana';
+    color: #116A7B;
+    font-weight: normal;
+}
+.food-card{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.food-img>img{
+    height: 472px;
+    width: 472px;
+    border-radius: 20px;
+}
+.food-img{
+    background-color: #7EAA92
+    ;
+    padding: 50px;
+    cursor: pointer;
+   
+}
+.food-text{
+    background-color: #F7FFE5;
+    padding: 50px;
+    width: 40%;
+    
+}
+.food-text>h1{
+    padding-bottom:20px ;
+    font-size: 52px;
+}
+hr{
+    border: 2px solid black;
+}
+.food-text>h3{
+    display: none;
+    font-family: 'Lusitana';
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+ul{
+    font-size: 20px;
+    line-height: 30px;
+    color: #5E5959;
+}
+.modal{
+    font-size: 30px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Search-results{
+    display: none;
+}
+.search-food-img{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #B0D9B1;
+    padding: 50px 50px 20px 50px;
+    text-align: center;
+    hyphens: auto;
+
+}
+.search-food-card{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+}
+.search-food-img>img{
+    height: 250px;
+    width: 250px;
+}
+.horizontal-scroll-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer{
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .search-box {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .search-input {
+    border: none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    font-size: 20px;
+    width: 450px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    outline: none;
+  }
+  
+  .search-submit {
+    background-color: #FFD966;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    position: relative;
+    right: 15px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    outline: none; 
+  }
+  
+  .search-submit i {
+    color: #b7b930;
+  }
+  
+  .search-submit:hover {
+    background-color: #e5c178;
+  }
+
+.error{
+    padding: 100px ;
+}
+
+@media only screen and (max-width: 1027px) {
+    body{
+        overflow-x: hidden;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .description-img{
+        display: none;
+    }
+    .main-description {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .food-card {
+        flex-wrap: wrap;
+        padding-top: 10px;
+        margin: 20px;
+    }
+
+    .food-img {
+        margin: 30px;
+        padding: 10px;
+    }
+
+    .food-text {
+        padding: 10px;
+    }
+
+    .food-text>h1 {
+        font-size: 24px;
+    }
+
+    .food-text>h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .modal {
+        font-size: 18px;
+        height: 120px;
+    }
+
+    .search-box {
+        margin-top: 10px;
+    }
+
+    .search-input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .search-submit {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .footer {
+        font-size: 24px;
+    }
+}

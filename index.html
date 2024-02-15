@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelishDive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <img src="./images/logo1-removebg-preview.png" alt="">
+            </div>
+            <div class="title">
+                <h1>DelishDive</h1>
+            </div>
+        </nav>
+    </header>
+    <div class="main-description">
+        <div class="description">
+            <h1>Master <span class="green">Quick & Easy</span><br> Cooking With <br> Delish Dive</h1>
+            <h4>Unleash Flavor, Embrace Adventure. </h4>
+            <div class="search-box">
+            <input class="search-input" id="myInput" type="text" placeholder="ex: Chicken, seafood" >
+            <button class="search-submit" type="submit"><i class="fa fa-search" style="color: #116A7B;"></i></button>
+            </div>
+        </div>
+        <div class="description">
+            <img src="./images/bg1-removebg-preview.png" alt="">
+        </div>
+    </div>
+
+    <div class="Random-Meal">
+        <h4>Today's Pick</h4>
+        <div class="food-card">
+        </div>
+    </div>
+    <div class="Search-results">
+        <h4 id="searchHeading">This is what we have found...</h4>
+        <div class="horizontal-scroll-wrapper"></div>
+    </div>
+    <footer>
+        <h3>Made by Gouri Agarwal</h3>
+        <a href="https://github.com/Gouri1504"> <p>Connect here...<p></a>
+        
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
